@@ -1,0 +1,28 @@
+name: Feature Request
+description: Suggest an idea
+labels: [feature request]
+body:
+  - type: textarea
+    attributes:
+      label: What's the Problem?
+      description: If your feature request is related to a problem, describe it clearly.
+  - type: textarea
+    attributes:
+      label: Solution/Idea
+      description: Describe your solution/idea.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives
+      description: Describe alternatives you've considered
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this Issue, you are agreeing to the Code of Conduct.
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
